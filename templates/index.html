@@ -11,9 +11,10 @@
 
 </head>
 
-<body>
+<body style="color:#b0b4b5;">
+
  <div class="login">
-	<h1>Fake News📰  Detector</h1>
+	<h1>Welcome to Fake News📰 Detector</h1>
 
     <form action="{{ url_for('predict')}}" method="POST">
     	<textarea  name="message" rows="6" cols="50" required="required" style="font-size: 18pt"></textarea>
@@ -23,9 +24,9 @@
         	<div class="results">
 
 	{% if prediction == ['FAKE']%}
-	<h2 style="color:red;">Looking Spam⚠️News📰 </h2>
+	<h2 style="color:red;">Is a Fake⚠️News📰 </h2>
 	{% elif prediction == ['REAL']%}
-				<h2 style="color:green;"><b>Looking Real News📰</b></h2>
+				<h2 style="color:green;"><b>Is a Real News📰</b></h2>
 	{% endif %}
 
 	</div>
@@ -45,9 +46,15 @@
 
 </head>
 
-<body>
+<body style="color:#2980B9" >
+<center>
+
+<div class="header">
+	<img src="static/images/ku.png" alt="logo" width="120" height="110" style="float:left;"><br>
+	THE ASSAM KAZIRANGA UNIVERSITY
+</div>
  <div class="login">
-	<h1>Fake News📰  Detector</h1>
+	<h1>Welcome to Fake News📰 Detector</h1>
 
     <form action="{{ url_for('predict')}}" method="POST">
     	<textarea  name="message" rows="6" cols="50" required="required" style="font-size: 18pt"></textarea>
@@ -57,9 +64,9 @@
         	<div class="results">
 
 	{% if prediction == ['FAKE']%}
-	<h2 style="color:red;">Looking Spam⚠️News📰 </h2>
+	<h2 style="color:red;">Is a Fake⚠️News📰 </h2>
 	{% elif prediction == ['REAL']%}
-				<h2 style="color:green;"><b>Looking Real News📰</b></h2>
+				<h2 style="color:green;"><b>Is a Real News📰</b></h2>
 	{% endif %}
 
 	</div>
@@ -67,3 +74,4 @@
     </form>
 
 </div>
+</center></body>
