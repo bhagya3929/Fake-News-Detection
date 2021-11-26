@@ -9,7 +9,7 @@ IDE: Jupyter Notebook, PyCharm
 
 Language: Python, Flask, HTML, CSS
 
-![Screenshot (30)](https://user-images.githubusercontent.com/77850791/143563599-26bfc5ac-0dbb-4fd9-9b1c-38e3a7f19bbd.png)
+![Screenshot (29)](https://user-images.githubusercontent.com/77850791/143563712-91e47954-9695-479e-addc-3cd491c3f095.png)
 
 ![Screenshot (26)](https://user-images.githubusercontent.com/77850791/143400229-b13c857a-f617-471f-8d49-593b620beb87.png)
 
